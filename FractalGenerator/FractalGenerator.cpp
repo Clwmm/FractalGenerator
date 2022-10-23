@@ -1,6 +1,6 @@
 #include "FractalGenerator.h"
 
-FractalGenerator::FractalGenerator(int verticles, int nrpoints, int x, int y, int windowSize)
+FractalGenerator::FractalGenerator(int verticles, int nrpoints, float x, float y, int windowSize)
 {
 	srand(time(0));
 

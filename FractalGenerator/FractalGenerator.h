@@ -10,7 +10,7 @@ class FractalGenerator
 private:
 	sf::RenderWindow* window;
 public:
-	FractalGenerator(int verticles, int nrpoints, int x, int y, int windowSize);
+	FractalGenerator(int verticles, int nrpoints, float x, float y, int windowSize);
 	~FractalGenerator();
 private:
 	float DEGTORAD = 0.017453;
