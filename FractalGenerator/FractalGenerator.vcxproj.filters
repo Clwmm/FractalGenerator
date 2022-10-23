@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{a1cd59af-c014-4998-8b40-3d420b6471a6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FractalGenerator.cpp">
@@ -26,5 +29,10 @@
     <ClInclude Include="FractalGenerator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="rend\Fractals.txt">
+      <Filter>res</Filter>
+    </Text>
   </ItemGroup>
 </Project>

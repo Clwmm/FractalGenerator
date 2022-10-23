@@ -1,0 +1,23 @@
+Points: 20000000 
+Resolution: 16000x16000
+
+Fractal I: Sierpiński Triangle
+3, 1/2
+
+Fractal II: Koch Snowflake
+6, 2/3
+
+Fractal III:   n-flake: 1/phi
+5, 1/1.618
+
+Fractal IV:  phi/pi
+5, 1.618/3.141
+
+
+TO DO:
+6, 1.065/1.618 !!!  PERFECT: 6, 1.08/1.618
+5, 7/12
+3, 1.618/4
+3, 2/5
+3, 3/7
+6, 11/20

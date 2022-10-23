@@ -65,17 +65,18 @@ FractalGenerator::FractalGenerator(int verticles, int nrpoints, float x, float y
 			window->display();
 		if (status == State::last)
 		{
-			/* SAVING IMAGE
-			sf::Texture texture;
+			// SAVING IMAGE
+			/*sf::Texture texture;
 			texture.create(window->getSize().x, window->getSize().y);
 			texture.update(*window);
-			texture.copyToImage().saveToFile("rend/Fractal_2.png");
+			std::string filename = "rend/Fractal_" + std::to_string(verticles) + "_" + std::to_string(x) + "_" + std::to_string(y) + ".png";
+			texture.copyToImage().saveToFile(filename);
 			window->display();*/
 			status = State::done;
 		}
 
-		/* CLOSING AFTER
-		if (status == State::done)
+		// CLOSING AFTER
+		/*if (status == State::done)
 			window->close();*/
 
 	}
