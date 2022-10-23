@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/FractalGenerator/renders
+/FractalGenerator/renders_s
+/FractalGenerator/renders_w
